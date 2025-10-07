@@ -1,0 +1,76 @@
+.header { 
+    background-image: url("../images/pattern.jpeg");
+    text-align: center;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+.brushes { 
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+.Hacksaw-Brushes { 
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.info1 { 
+    color: black;
+    text-align: left;
+}
+
+span { 
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.frames { 
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+}
+
+.Art-Frames-assorted  { 
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.info2 { 
+    color: black;
+    text-align: left;
+}
+
+.paint { 
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+}
+
+.finnish { 
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.info3 { 
+    color: black;
+    text-align: left;
+}
