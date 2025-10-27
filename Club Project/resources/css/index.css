@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f2f5;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #004d98;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#title {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.625rem;
+}
+
+#navi > li {
+    display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 0.625rem;
+}
+
+#navi li a {
+    text-decoration: none;
+    color:black;
+}
+
+#navi li a:hover {
+    color: red;
+}
+
+#about {
+    width: 100%;
+    background-color: #a50044;
+    color: #fff;
+}
+
+.about-1 {
+    text-align: center;
+    padding-top: 2.4rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.about-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../images/camp_nou_stadium_barcelona-wallpaper-1920x1280.jpg');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    color: yellow;
+}
+
+#h3 {
+    background-color: yellow;
+    color: maroon;
+    text-align: center;
+    width: 100%;
+}
+
+.def {
+    padding: 0.7rem;
+}
+
+#players {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #95a9d2;
+    color: #111433;
+}
+
+.picture-holder {
+    width: 18.75rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.pictures {
+    height: 12.5rem;
+    width: 12.5rem;
+    object-fit: cover;
+}
+
+#p {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#trophies {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd700;
+    color: #00205b;
+    width: 100%;
+}
+
+.tit {
+    text-align: center;
+    padding-top: 2.4rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    background-color: #a50044;
+    color: #fff;
+}
