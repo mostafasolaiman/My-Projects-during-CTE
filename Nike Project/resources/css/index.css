@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    width: 100%;
+    /*position: fixed;*/
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#title {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#logo {
+    align-items: center;
+    margin-left: 70px;
+}
+
+#navi > li {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+#navi li a {
+    text-decoration: none;
+    color:black;
+}
+
+#navi li a:hover {
+    color: red;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/photo-1656357386325-3faecf2438cf.avif);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.des {
+    text-align: center;
+    background-color: wheat;
+    width: 100%;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+#def-cleats {
+    text-align: center;
+    width: 100%;
+}
+
+#cleats {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-holder {
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+.pictures {
+    height: 200px;
+    width: 200px;
+}
+
+#def-jerseys {
+    text-align: center;
+    width: 100%;
+}
+
+#jerseys {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#def-balls {
+    text-align: center;
+    width: 100%;
+}
+
+#balls {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.def-players {
+    text-align: center;
+    width: 100%;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/960x0.webp);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+#p {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
