@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #002056;
+    text-align: center;
+}
+
+footer {
+    background-color: #002056;
+    color: #FFD700;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#colors {
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.color-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+#fonts {
+    margin-top: 20px;
+}
+
+.font-sample {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.font-sample:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#text-styles {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#text-styles h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.uppercase, .underline {
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.uppercase p {
+    text-transform: uppercase;
+}
+
+.underline p {
+    text-decoration: underline;
+}
+
+.uppercase:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.underline:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
