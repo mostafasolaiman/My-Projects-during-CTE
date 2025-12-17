@@ -1,0 +1,101 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+html {
+    background-color: #FCF5EE;
+    height: 100vh;
+    margin: 0;
+    /*background-color: rgb(245, 236, 108);*/
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
+body {
+    border: 1px solid #2F4F4F;
+    background-color: maroon;
+    color: #468A9A;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+span {
+    color: #E8C999;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+#name {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#pass {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+.check {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.btn {
+    display: block;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    transition: 2s ease;
+    color: #468A9A;
+    font-weight: bold;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.btn:active {
+    animation: shake 0.3s;
+}
+
+/*button:hover {
+    transform: scale(1.05);
+    background-color: #A72703;
+}*/
+
+.fourth {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
