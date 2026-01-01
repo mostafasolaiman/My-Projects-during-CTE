@@ -1,0 +1,31 @@
+[
+    {
+        "userId": 1,
+        "username": "admin",
+        "password": "admin123",
+        "role": "staff",
+        "fullName": "Admin User",
+        "email": "admin@pharmacy.com",
+        "phone": "+1 234 567 8900"
+    },
+    {
+        "userId": 2,
+        "username": "john",
+        "password": "john1234",
+        "role": "client",
+        "fullName": "John Doe",
+        "email": "john.doe@email.com",
+        "phone": "+1 234 567 8901",
+        "address": "123 Main Street, City, State"
+    },
+    {
+        "userId": 3,
+        "username": "jane",
+        "password": "jane1234",
+        "role": "client",
+        "fullName": "Jane Smith",
+        "email": "jane.smith@email.com",
+        "phone": "+1 234 567 8902",
+        "address": "456 Oak Avenue, City, State"
+    }
+]

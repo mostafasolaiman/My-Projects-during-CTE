@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <title>Client Page</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="sidebar">
+            <div class="user-info">
+                <img src="https://masterbundles.com/wp-content/uploads/2023/03/pharmacy-eps-489.jpg" class="logo">
+                <h3>John Doe</h3>
+                <p>Client</p>
+            </div>
+            
+            <div class="menu">
+                <a href="#" class="menu-item active" data-section="medications">
+                    <span>💊</span>
+                    Medications
+                </a>
+                <a href="#" class="menu-item" data-section="messages">
+                    <span>💬</span>
+                    Messages
+                </a>
+                <a href="#" class="menu-item" data-section="profile">
+                    <span>👤</span>
+                    Profile
+                </a>
+            </div>
+            
+            <button class="logout">Logout</button>
+        </div>
+        
+        <div class="content">
+            
+            <div id="medications-section" class="client-section active">
+                <div class="header">
+                    <h1>Available Medications</h1>
+                    <p>Browse our collection of medications</p>
+                </div>
+                
+                <div class="medications">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400" class="med-image">
+                        <h3>Paracetamol 500mg</h3>
+                        <p>Pain relief and fever reducer. Take as directed by physician.</p>
+                        <div class="card-footer">
+                            <span class="price">$5.99</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400" class="med-image">
+                        <h3>Ibuprofen 400mg</h3>
+                        <p>Anti-inflammatory medication for pain and swelling relief.</p>
+                        <div class="card-footer">
+                            <span class="price">$7.50</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400" class="med-image">
+                        <h3>Vitamin C 1000mg</h3>
+                        <p>Immune system support. One tablet daily with food.</p>
+                        <div class="card-footer">
+                            <span class="price">$12.99</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/R.add35ee9d236158d823538c8f6a490f6?rik=4JFTC0S62c0Yhw&pid=ImgRaw&r=0" class="med-image">
+                        <h3>Aspirin 100mg</h3>
+                        <p>Blood thinner for cardiovascular health. Prescription required.</p>
+                        <div class="card-footer">
+                            <span class="price">$4.25</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=400" class="med-image">
+                        <h3>Cough Syrup</h3>
+                        <p>Relief for dry and wet cough. Adults: 10ml every 6 hours.</p>
+                        <div class="card-footer">
+                            <span class="price">$9.99</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400" class="med-image">
+                        <h3>Amoxicillin 500mg</h3>
+                        <p>Antibiotic for bacterial infections. Complete full course.</p>
+                        <div class="card-footer">
+                            <span class="price">$15.00</span>
+                            <button class="btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="messages-section" class="client-section">
+                <div class="header">
+                    <h1>Messages</h1>
+                    <p>Your conversations with the pharmacy</p>
+                </div>
+                
+                <div class="messages-container">
+                    <div class="message-card">
+                        <div class="message-header">
+                            <h3>Pharmacy Staff</h3>
+                            <span class="message-date">Yesterday</span>
+                        </div>
+                        <p>Your prescription is ready for pickup. Please visit us during business hours.</p>
+                        <button class="reply-btn">Reply</button>
+                    </div>
+                    
+                    <div class="message-card">
+                        <div class="message-header">
+                            <h3>You</h3>
+                            <span class="message-date">2 days ago</span>
+                        </div>
+                        <p>Hello, when will my prescription be ready?</p>
+                    </div>
+                    
+                    <div class="message-card">
+                        <div class="message-header">
+                            <h3>Pharmacy Staff</h3>
+                            <span class="message-date">3 days ago</span>
+                        </div>
+                        <p>Thank you for your order. We will notify you when it's ready.</p>
+                        <button class="reply-btn">Reply</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="profile-section" class="client-section">
+                <div class="header">
+                    <h1>My Profile</h1>
+                    <p>Manage your personal information</p>
+                </div>
+                
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <h3>Personal Information</h3>
+                        <div class="profile-info">
+                            <p><strong>Name:</strong> John Doe</p>
+                            <p><strong>Email:</strong> john.doe@email.com</p>
+                            <p><strong>Phone:</strong> +1 234 567 8900</p>
+                            <p><strong>Address:</strong> 123 Main Street, City, State</p>
+                        </div>
+                        <button class="btn">Edit Profile</button>
+                    </div>
+                    
+                    <div class="profile-card">
+                        <h3>Purchase History</h3>
+                        <div class="purchase-list">
+                            <div class="purchase-item">
+                                <p><strong>Paracetamol 500mg</strong></p>
+                                <p>Date: Dec 20, 2024 - $5.99</p>
+                            </div>
+                            <div class="purchase-item">
+                                <p><strong>Vitamin C 1000mg</strong></p>
+                                <p>Date: Dec 15, 2024 - $12.99</p>
+                            </div>
+                            <div class="purchase-item">
+                                <p><strong>Ibuprofen 400mg</strong></p>
+                                <p>Date: Dec 10, 2024 - $7.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="../JS/client-script.js"></script>
+</body>
+</html>

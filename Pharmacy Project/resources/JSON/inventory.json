@@ -1,0 +1,56 @@
+[
+    {
+        "itemId": 1,
+        "name": "Paracetamol 500mg",
+        "stock": 150,
+        "price": 5.99,
+        "category": "Pain Relief",
+        "description": "Pain relief and fever reducer. Take as directed by physician.",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400"
+    },
+    {
+        "itemId": 2,
+        "name": "Ibuprofen 400mg",
+        "stock": 200,
+        "price": 7.50,
+        "category": "Pain Relief",
+        "description": "Anti-inflammatory medication for pain and swelling relief.",
+        "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400"
+    },
+    {
+        "itemId": 3,
+        "name": "Vitamin C 1000mg",
+        "stock": 80,
+        "price": 12.99,
+        "category": "Vitamins",
+        "description": "Immune system support. One tablet daily with food.",
+        "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400"
+    },
+    {
+        "itemId": 4,
+        "name": "Aspirin 100mg",
+        "stock": 300,
+        "price": 4.25,
+        "category": "Cardiovascular",
+        "description": "Blood thinner for cardiovascular health. Prescription required.",
+        "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=400"
+    },
+    {
+        "itemId": 5,
+        "name": "Cough Syrup",
+        "stock": 120,
+        "price": 9.99,
+        "category": "Cold & Flu",
+        "description": "Relief for dry and wet cough. Adults: 10ml every 6 hours.",
+        "image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=400"
+    },
+    {
+        "itemId": 6,
+        "name": "Amoxicillin 500mg",
+        "stock": 90,
+        "price": 15.00,
+        "category": "Antibiotics",
+        "description": "Antibiotic for bacterial infections. Complete full course.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400"
+    }
+]

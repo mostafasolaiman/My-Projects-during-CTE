@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <title>Login page</title>
+</head>
+<body>
+    <section class="login-sec">
+        <div class="login-container">
+            <div class="name-icon">
+                <img id="logo" src="https://masterbundles.com/wp-content/uploads/2023/03/pharmacy-eps-489.jpg">
+                <h2 id="title">Pharmacy Management System</h2>
+                <h4>Welcome Back!</h4>
+            </div>
+            <div class="login-form">
+                <label id="name">
+                    <p>Username</p>
+                    <input type="text" id="username" placeholder="Username" required>
+                </label>
+                <label id="pass">
+                    <p>Password</p>
+                    <input type="password" id="password" minlength="8" maxlength="15" placeholder="Password" required>
+                </label>
+                <label id="user-type-label">
+                    <p>User Type</p>
+                    <select id="userType" required>
+                        <option value="">Select user type</option>
+                        <option value="staff">Staff / Manager</option>
+                        <option value="client">Client</option>
+                    </select>
+                </label>
+            </div>
+            <div class="forgot">
+                <p><a href="#">Forgot password?</a></p>
+            </div>
+                <div class="submit">
+                <button type="submit" id="btn-login">Login</button>
+            </div>
+        </div>
+    </section>
+    <script src="../JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "transactionId": 1,
+        "clientId": 2,
+        "clientName": "John Doe",
+        "items": [
+            {
+                "itemId": 1,
+                "itemName": "Paracetamol 500mg",
+                "quantity": 2,
+                "price": 5.99
+            }
+        ],
+        "total": 11.98,
+        "date": "2024-12-20T14:30:00",
+        "status": "Completed"
+    },
+    {
+        "transactionId": 2,
+        "clientId": 2,
+        "clientName": "John Doe",
+        "items": [
+            {
+                "itemId": 3,
+                "itemName": "Vitamin C 1000mg",
+                "quantity": 1,
+                "price": 12.99
+            }
+        ],
+        "total": 12.99,
+        "date": "2024-12-15T10:15:00",
+        "status": "Completed"
+    },
+    {
+        "transactionId": 3,
+        "clientId": 2,
+        "clientName": "John Doe",
+        "items": [
+            {
+                "itemId": 2,
+                "itemName": "Ibuprofen 400mg",
+                "quantity": 1,
+                "price": 7.50
+            }
+        ],
+        "total": 7.50,
+        "date": "2024-12-10T16:45:00",
+        "status": "Completed"
+    },
+    {
+        "transactionId": 4,
+        "clientId": 3,
+        "clientName": "Jane Smith",
+        "items": [
+            {
+                "itemId": 5,
+                "itemName": "Cough Syrup",
+                "quantity": 1,
+                "price": 9.99
+            }
+        ],
+        "total": 9.99,
+        "date": "2024-12-18T11:20:00",
+        "status": "Completed"
+    }
+]
